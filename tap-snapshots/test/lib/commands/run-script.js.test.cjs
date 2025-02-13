@@ -54,7 +54,7 @@ exports[`test/lib/commands/run-script.js > TAP > workspaces > failed workspace r
 Lifecycle script \`glorp\` failed with error:
 code ERR
 workspace a@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-failed-workspace-run-with-succeeded-runs/prefix/packages/a
+location {CWD}/prefix/packages/a
 ERR
 `
 
@@ -207,42 +207,42 @@ Scripts available in a@1.0.0 via \`npm run-script\`:
 exports[`test/lib/commands/run-script.js > TAP > workspaces > missing scripts in all workspaces > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`missing-script\` failed with error:
 workspace a@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/a
+location {CWD}/prefix/packages/a
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=a@1.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace b@2.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/b
+location {CWD}/prefix/packages/b
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=b@2.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace c@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/c
+location {CWD}/prefix/packages/c
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=c@1.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace d@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/d
+location {CWD}/prefix/packages/d
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=d@1.0.0
 Lifecycle script \`missing-script\` failed with error:
 workspace e
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/e
+location {CWD}/prefix/packages/e
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
   npm run --workspace=e
 Lifecycle script \`missing-script\` failed with error:
 workspace noscripts@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-all-workspaces/prefix/packages/noscripts
+location {CWD}/prefix/packages/noscripts
 Missing script: "missing-script"
 npm error
 To see a list of scripts, run:
@@ -252,14 +252,14 @@ To see a list of scripts, run:
 exports[`test/lib/commands/run-script.js > TAP > workspaces > missing scripts in some workspaces > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`test\` failed with error:
 workspace a@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-some-workspaces/prefix/packages/a
+location {CWD}/prefix/packages/a
 Missing script: "test"
 npm error
 To see a list of scripts, run:
   npm run --workspace=a@1.0.0
 Lifecycle script \`test\` failed with error:
 workspace b@2.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-missing-scripts-in-some-workspaces/prefix/packages/b
+location {CWD}/prefix/packages/b
 Missing script: "test"
 npm error
 To see a list of scripts, run:
@@ -269,6 +269,6 @@ To see a list of scripts, run:
 exports[`test/lib/commands/run-script.js > TAP > workspaces > single failed workspace run > should log error msgs for each workspace script 1`] = `
 Lifecycle script \`test\` failed with error:
 workspace c@1.0.0
-location {CWD}/.tap/fixtures/test-lib-commands-run-script.js-workspaces-single-failed-workspace-run/prefix/packages/c
+location {CWD}/prefix/packages/c
 err
 `

@@ -334,20 +334,22 @@ t.test('skip pre/post hooks when using ignoreScripts', async t => {
   t.same(RUN_SCRIPTS(), [
     {
       path: npm.localPrefix,
-      args: [],
       scriptShell: undefined,
       stdio: 'inherit',
       pkg: {
         name: 'x',
         version: '1.2.3',
-        _id: 'x@1.2.3',
         scripts: {
           preenv: 'echo before the env',
           postenv: 'echo after the env',
           env: 'env',
         },
+        _id: 'x@1.2.3',
+        [Symbol.for('newline')]: '',
+        [Symbol.for('indent')]: '',
       },
       event: 'env',
+      args: [],
     },
   ])
 })
