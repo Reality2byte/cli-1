@@ -1,5 +1,9 @@
 # Changelog
 
+## [9.1.4](https://github.com/npm/cli/compare/arborist-v9.1.3...arborist-v9.1.4) (2025-08-19)
+### Bug Fixes
+* [`ed71acb`](https://github.com/npm/cli/commit/ed71acb89fc3883e735987cc9be77efc2daff26a) [#8473](https://github.com/npm/cli/pull/8473) arborist: #8472 Keeps the registry protocol when modifying resolve URL (#8473) (@Jeepsboucher, Jean-Philippe Boucher)
+
 ## [9.1.3](https://github.com/npm/cli/compare/arborist-v9.1.2...arborist-v9.1.3) (2025-07-24)
 ### Bug Fixes
 * [`6dbe21a`](https://github.com/npm/cli/commit/6dbe21ab659c4e32657fec63fc58bb3f4992f4f1) [#8436](https://github.com/npm/cli/pull/8436) local transitive dependencies with --install-links=true (@owlstronaut)
